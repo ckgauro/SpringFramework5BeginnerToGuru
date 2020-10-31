@@ -29,6 +29,11 @@ public class Author {
     @ManyToMany(mappedBy = "authors")
     private Set<Book> books=new HashSet<>();
 
+    public Author(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

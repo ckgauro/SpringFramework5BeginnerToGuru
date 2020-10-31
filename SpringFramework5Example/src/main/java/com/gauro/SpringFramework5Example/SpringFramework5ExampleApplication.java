@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringFramework5ExampleApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Good=========Main======>");
 		SpringApplication.run(SpringFramework5ExampleApplication.class, args);
 	}
 
