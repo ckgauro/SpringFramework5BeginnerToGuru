@@ -15,8 +15,8 @@ import java.util.Set;
  */
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Builder
 @Entity
 public class Book {
@@ -24,37 +24,46 @@ public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
     private String title;
     private String isbn;
 
     @ManyToOne
     private Publisher publisher;
 
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "author_book", joinColumns = @JoinColumn(name="book_id"), inverseJoinColumns = @JoinColumn(name = "author_id"))
-    private Set<Author> authors=new HashSet<>();
+    @ManyToMany
+    @JoinTable(name = "author_book", joinColumns = @JoinColumn(name = "book_id"),
+            inverseJoinColumns = @JoinColumn(name = "author_id"))
+    private Set<Author> authors = new HashSet<>();
 
     public Book(String title, String isbn) {
         this.title = title;
         this.isbn = isbn;
     }
 
-    public Book(Long id, String title, String isbn) {
-        this.id=id;
-        this.title = title;
-        this.isbn = isbn;
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", isbn='" + isbn + '\'' +
+                ", publisher=" + (publisher==null? "Null " : publisher)+
+                //", authors=" +  (authors==null? "Null " : authors)  +
+                '}';
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         Book book = (Book) o;
-        return id.equals(book.id);
+
+        return id != null ? id.equals(book.id) : book.id == null;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id);
+        return id != null ? id.hashCode() : 0;
     }
 }

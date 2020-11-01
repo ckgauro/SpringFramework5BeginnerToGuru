@@ -32,55 +32,56 @@ public class BootStrapData implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-         log.info("Started in Bootstrap===>");
-        // log.info("Hello------********----");
-        Publisher publisher=new Publisher();
-        publisher.setName("SFG publishing");
-        publisher.setCity("Boston");
-        publisher.setState("MA");
+        System.out.println("Started in Bootstrap");
+
+        Publisher publisher = new Publisher();
+        publisher.setName("SFG Publishing");
+        publisher.setCity("St Petersburg");
+        publisher.setState("FL");
 
         publisherRepository.save(publisher);
-        log.info("Publisher Count:");
-        log.info(publisherRepository.count()+"");
+
+        System.out.println("Publisher Count: " + publisherRepository.count());
+
         Author eric = new Author("Eric", "Evans");
         Book ddd = new Book("Domain Driven Design", "123123");
         eric.getBooks().add(ddd);
         ddd.getAuthors().add(eric);
+        ddd.setPublisher(publisher);
         publisher.getBooks().add(ddd);
 
         authorRepository.save(eric);
         bookRepository.save(ddd);
-
+        publisherRepository.save(publisher);
 
         Author rod = new Author("Rod", "Johnson");
         Book noEJB = new Book("J2EE Development without EJB", "3939459459");
         rod.getBooks().add(noEJB);
-
-        //publisher.getBooks().add(noEJB);
-        log.info(noEJB.toString());
-        Book spring = new Book(23L, "Spring", "34522");
-        log.info(spring.toString());
-        rod.getBooks().add(spring);
-       // publisher.getBooks().add(spring);
         noEJB.getAuthors().add(rod);
-        log.info("========>>>>");
-        log.info(rod.toString());
+        noEJB.setPublisher(publisher);
+        publisher.getBooks().add(noEJB);
+
         authorRepository.save(rod);
         bookRepository.save(noEJB);
         publisherRepository.save(publisher);
-        log.info("-------");
-       // StreamSupport.stream(bookRepository.findAll().spliterator(), false).forEach(e->log.info(e.toString()));
 
-        //bookRepository.findAll().forEach(el -> log.info(el.toString()));
+        Book spring = new Book("Spring", "123123");
+        rod.getBooks().add(spring);
+        spring.getAuthors().add(rod);
+        spring.setPublisher(publisher);
+        publisher.getBooks().add(spring);
 
-        log.info("Started in Bootstrap");
-        log.info("Number of Books: " + bookRepository.count());
-        log.info("Number of Authors:" + authorRepository.count());
-        log.info("Number of Publisher:"+publisherRepository.count());
-        Iterable<Book> iBooks=bookRepository.findAll();
+        bookRepository.save(spring);
+
+        log.info("New Book===>");
+       // rod.getBooks().forEach(el->log.info(el.toString()));
+
+        System.out.println("Number of Books: " + bookRepository.count());
+        System.out.println("Publisher Number of Books: " + publisher.getBooks().size());
         //log.info(iBooks.spliterator());
         //iBooks.forEach(el->log.info(el.toString()));
-        //Iterable<Book> lsUser = bookRepository.findAll();
-      //  StreamSupport.stream(lsUser.spliterator(), false).forEach(System.out::println);
-    }
+        Iterable<Book> lsUser = bookRepository.findAll();
+        StreamSupport.stream(lsUser.spliterator(), false).forEach(System.out::println);
+
+           }
 }
