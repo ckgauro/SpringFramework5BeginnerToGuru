@@ -54,7 +54,8 @@ publisherRepository
 Run it
 -----------------
 
-Lect 19
+Lect 19 ---DONE
+
 https://github.com/springframeworkguru/spring5webapp/tree/h2-console
 
 application.properties
@@ -67,12 +68,16 @@ jdbc:h2:mem:testdb
 
 -----------------
 
-Lect 21
+Lect 21  --done
+https://github.com/springframeworkguru/spring5webapp/tree/adding-controller-v2
+
 guru.springframework.spring5webapp.controllers
 
 ------------
 
 Lect 22
+
+https://github.com/springframeworkguru/spring5webapp/tree/adding-thymeleaf-v2
 
 Update POm Thymeleaf
 
