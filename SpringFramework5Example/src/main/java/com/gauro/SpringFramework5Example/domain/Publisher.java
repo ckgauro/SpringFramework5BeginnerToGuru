@@ -1,13 +1,11 @@
 package com.gauro.SpringFramework5Example.domain;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
@@ -17,36 +15,31 @@ import java.util.Set;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
-public class Author {
+public class Publisher {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String name;
+    private String addressLine1;
+    private String city;
+    private String state;
+    private String zip;
 
-    private String firstName;
-    private String lastName;
-
-    @ManyToMany(mappedBy = "authors")
+    @OneToMany
+    @JoinColumn(name="publisher_id")
     private Set<Book> books=new HashSet<>();
-
-    public Author(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Author author = (Author) o;
-        return id.equals(author.id);
+        Publisher publisher = (Publisher) o;
+        return id.equals(publisher.id);
     }
 
     @Override
     public int hashCode() {
         return Objects.hash(id);
     }
-
-
 }
