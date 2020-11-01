@@ -75,7 +75,7 @@ guru.springframework.spring5webapp.controllers
 
 ------------
 
-Lect 22
+Lect 22  --done
 
 https://github.com/springframeworkguru/spring5webapp/tree/adding-thymeleaf-v2
 
@@ -85,7 +85,7 @@ booksController
 /src/main/resources/templates/books/list.html
 
 -----------
-assignment
+assignment  --Done
 -------------
 
 Lect 23 & 24
