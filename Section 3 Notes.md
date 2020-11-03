@@ -48,7 +48,7 @@ guru.springframework.sfgdi.controllers.setterInjected
 
 --------
 
-Lect 35 --ongoing
+Lect 35 --Done
 https://github.com/springframeworkguru/sfg-di/tree/spring-di
 
 guru.springframework.sfgdi
@@ -73,7 +73,7 @@ https://github.com/springframeworkguru/sfg-di/blob/spring-di/src/main/java/guru/
 
 --------------
 
-Lect 36
+Lect 36  --Ongoing
 
 https://github.com/springframeworkguru/sfg-di/tree/using-qualifiers
 
