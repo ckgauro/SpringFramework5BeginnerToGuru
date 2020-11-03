@@ -21,6 +21,9 @@ public class SpringFramework5ExampleApplication {
         log.info("From Mygreetings===>");
         log.info(greeting);
 
+        log.info("--------Primary Bean");
+        log.info(myController.sayHello());
+
         log.info("========From Property");
 		PropertyInjectedController propertyInjectedController=(PropertyInjectedController) ctx.getBean("propertyInjectedController");
 		log.info(propertyInjectedController.getGreeting());

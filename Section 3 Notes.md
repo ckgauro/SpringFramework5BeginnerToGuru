@@ -73,7 +73,7 @@ https://github.com/springframeworkguru/sfg-di/blob/spring-di/src/main/java/guru/
 
 --------------
 
-Lect 36  --Ongoing
+Lect 36  --Done
 
 https://github.com/springframeworkguru/sfg-di/tree/using-qualifiers
 
@@ -99,7 +99,7 @@ Now run it
 
 -------------
 
-Lect 37
+Lect 37  ---Done
 
 https://github.com/springframeworkguru/sfg-di/tree/primary-bean
 https://github.com/springframeworkguru/sfg-di/blob/primary-bean/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java
@@ -116,7 +116,7 @@ and undo  again
 
 ----------------
 
-Lect 38
+Lect 38  --Ongoing
 https://github.com/springframeworkguru/sfg-di/tree/profiles
 
 https://github.com/springframeworkguru/sfg-di/blob/profiles/src/main/resources/application.properties
