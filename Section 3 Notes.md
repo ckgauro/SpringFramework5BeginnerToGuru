@@ -116,7 +116,7 @@ and undo  again
 
 ----------------
 
-Lect 38  --Ongoing
+Lect 38  --Done
 https://github.com/springframeworkguru/sfg-di/tree/profiles
 
 https://github.com/springframeworkguru/sfg-di/blob/profiles/src/main/resources/application.properties
@@ -129,7 +129,7 @@ https://github.com/springframeworkguru/sfg-di/blob/profiles/src/main/java/guru/s
 [run it]
 ---------
 
-Lect 39
+Lect 39  --Done
 
 https://github.com/springframeworkguru/sfg-di/tree/default-profile
 https://github.com/springframeworkguru/sfg-di/blob/default-profile/src/main/java/guru/springframework/sfgdi/services/I18NSpanishService.java
