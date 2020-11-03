@@ -1,9 +1,6 @@
 package com.gauro.demo;
 
-import com.gauro.demo.controllers.ConstructorInjectedController;
-import com.gauro.demo.controllers.MyController;
-import com.gauro.demo.controllers.PropertyInjectedController;
-import com.gauro.demo.controllers.SetterInjectedController;
+import com.gauro.demo.controllers.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -35,6 +32,10 @@ public class SpringFramework5ExampleApplication {
 		log.info("=======From Constructor");
 		ConstructorInjectedController constructorInjectedController=(ConstructorInjectedController) ctx.getBean("constructorInjectedController");
 		log.info(constructorInjectedController.getGreeting());
+
+		log.info("========From I18nController");
+        I18nController i18nController=(I18nController) ctx.getBean("i18nController");
+        log.info(i18nController.sayHello());
     }
 
 }
