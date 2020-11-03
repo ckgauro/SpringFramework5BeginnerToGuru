@@ -135,7 +135,7 @@ https://github.com/springframeworkguru/sfg-di/tree/default-profile
 https://github.com/springframeworkguru/sfg-di/blob/default-profile/src/main/java/guru/springframework/sfgdi/services/I18NSpanishService.java
 Comment in properties
 -----
-assignement
+assignement  __ongoing
 https://www.udemy.com/course/spring-framework-5-beginner-to-guru/learn/practice/1162512/introduction#overview
 
 Start --> https://github.com/springframeworkguru/sfg-di/tree/di-assignment
