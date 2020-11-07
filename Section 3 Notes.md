@@ -135,7 +135,7 @@ https://github.com/springframeworkguru/sfg-di/tree/default-profile
 https://github.com/springframeworkguru/sfg-di/blob/default-profile/src/main/java/guru/springframework/sfgdi/services/I18NSpanishService.java
 Comment in properties
 -----
-assignement  __ongoing
+assignement  --Done
 https://www.udemy.com/course/spring-framework-5-beginner-to-guru/learn/practice/1162512/introduction#overview
 
 Start --> https://github.com/springframeworkguru/sfg-di/tree/di-assignment
@@ -143,13 +143,13 @@ End --> https://github.com/springframeworkguru/sfg-di/tree/di-assignment-review
 
 
 ----------
-Lect 40
+Lect 40  ---Done
 Spring Bean Life Cycle
 Bean Post Processors
 'Aware' Interfaces
 
 --------
-Lect 41
+Lect 41 --Done
 https://github.com/springframeworkguru/sfg-di/tree/life-cycle-demo
 
 Add missing class
@@ -162,11 +162,25 @@ CustomBeanPostPrecssor
 
 -------------
 
-Lect 47
+Lect 47 --Ongoing
 https://github.com/springframeworkguru/sfg-pet-clinic
 
 https://github.com/springframeworkguru/sfg-pet-clinic/tree/master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model
 [Revise according to video]
+
+Create Person
+https://github.com/springframeworkguru/sfg-pet-clinic/blob/master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Person.java
+
+https://github.com/springframeworkguru/sfg-pet-clinic/blob/master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Vet.java
+
+Owner
+Person
+Pet
+PetType
+Vet
+
+
+
 
 
 
