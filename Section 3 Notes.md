@@ -162,7 +162,7 @@ CustomBeanPostPrecssor
 
 -------------
 
-Lect 47 --Ongoing
+Lect 47 --Done
 https://github.com/springframeworkguru/sfg-pet-clinic
 
 https://github.com/springframeworkguru/sfg-pet-clinic/tree/master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model
@@ -178,6 +178,10 @@ Person
 Pet
 PetType
 Vet
+
+--------
+
+Lect 48  --Ongoing
 
 
 

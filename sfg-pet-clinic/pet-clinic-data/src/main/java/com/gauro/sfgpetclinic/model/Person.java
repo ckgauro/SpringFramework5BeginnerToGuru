@@ -1,4 +1,4 @@
-package com.gauro.demo.model;
+package com.gauro.sfgpetclinic.model;
 
 /**
  * @author Chandra
