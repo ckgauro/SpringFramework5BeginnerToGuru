@@ -1,7 +1,7 @@
 ## Section 3 Dependecy Injection with Spring  --Ongoing
 
 Lect 31 --done
-
+``` 
 https://github.com/springframeworkguru/sfg-di/tree/add-spring-project
 
 Create new Project
@@ -15,10 +15,11 @@ Preference project SDK incase
 
 run the project
 remove exclusion Junit to support Junit 4
-
+``` 
 -------------
 
 Lect 32  --Done
+``` 
 https://github.com/springframeworkguru/sfg-di/tree/spring-context
 
 guru.springframework.sfgdi.controllers
@@ -27,10 +28,11 @@ guru.springframework.sfgdi
 Run the project
 
 try renmaing controller Name in @Controller("tryit")
-
+``` 
 ------
 
 Lect 34  --Done
+``` 
 https://github.com/springframeworkguru/sfg-di/tree/manual-di
 
 guru.springframework.sfgdi.services
@@ -45,10 +47,11 @@ guru.springframework.sfgdi.controllers
 guru.springframework.sfgdi.controllers.setterInjected
 
 [Revise video]
-
+``` 
 --------
 
 Lect 35 --Done
+``` 
 https://github.com/springframeworkguru/sfg-di/tree/spring-di
 
 guru.springframework.sfgdi
@@ -72,9 +75,9 @@ https://github.com/springframeworkguru/sfg-di/blob/spring-di/src/main/java/guru/
 https://github.com/springframeworkguru/sfg-di/blob/spring-di/src/main/java/guru/springframework/sfgdi/controllers/ConstructorInjectedController.java
 
 --------------
-
+``` 
 Lect 36  --Done
-
+``` 
 https://github.com/springframeworkguru/sfg-di/tree/using-qualifiers
 
 Refacting
@@ -96,11 +99,11 @@ https://github.com/springframeworkguru/sfg-di/blob/using-qualifiers/src/main/jav
 https://github.com/springframeworkguru/sfg-di/blob/using-qualifiers/src/main/java/guru/springframework/sfgdi/controllers/SetterInjectedController.java
 
 Now run it
-
+``` 
 -------------
 
 Lect 37  ---Done
-
+``` 
 https://github.com/springframeworkguru/sfg-di/tree/primary-bean
 https://github.com/springframeworkguru/sfg-di/blob/primary-bean/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java
 https://github.com/springframeworkguru/sfg-di/blob/primary-bean/src/main/java/guru/springframework/sfgdi/controllers/MyController.java
@@ -113,10 +116,11 @@ https://github.com/springframeworkguru/sfg-di/blob/primary-bean/src/main/java/gu
 https://github.com/springframeworkguru/sfg-di/blob/using-qualifiers/src/main/java/guru/springframework/sfgdi/services/ConstructorGreetingService.java
 remove quiler
 and undo  again
-
+``` 
 ----------------
 
 Lect 38  --Done
+``` 
 https://github.com/springframeworkguru/sfg-di/tree/profiles
 
 https://github.com/springframeworkguru/sfg-di/blob/profiles/src/main/resources/application.properties
@@ -125,12 +129,12 @@ https://github.com/springframeworkguru/sfg-di/blob/profiles/src/main/java/guru/s
 https://github.com/springframeworkguru/sfg-di/blob/profiles/src/main/java/guru/springframework/sfgdi/services/I18NSpanishService.java
 https://github.com/springframeworkguru/sfg-di/blob/profiles/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java
 https://github.com/springframeworkguru/sfg-di/blob/profiles/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java
-
+``` 
 [run it]
 ---------
 
 Lect 39  --Done
-
+``` 
 https://github.com/springframeworkguru/sfg-di/tree/default-profile
 https://github.com/springframeworkguru/sfg-di/blob/default-profile/src/main/java/guru/springframework/sfgdi/services/I18NSpanishService.java
 Comment in properties
@@ -140,16 +144,18 @@ https://www.udemy.com/course/spring-framework-5-beginner-to-guru/learn/practice/
 
 Start --> https://github.com/springframeworkguru/sfg-di/tree/di-assignment
 End --> https://github.com/springframeworkguru/sfg-di/tree/di-assignment-review
-
+``` 
 
 ----------
 Lect 40  ---Done
+``` 
 Spring Bean Life Cycle
 Bean Post Processors
 'Aware' Interfaces
-
+``` 
 --------
 Lect 41 --Done
+``` 
 https://github.com/springframeworkguru/sfg-di/tree/life-cycle-demo
 
 Add missing class
@@ -158,33 +164,13 @@ https://github.com/springframeworkguru/sfg-di/tree/life-cycle-demo/src/main/java
 
 LifeCycleDemoBean
 CustomBeanPostPrecssor
-
+``` 
 
 -------------
+[ Lect 47 to 52 on sfg-pet-clinic project
+https://github.com/ckgauro/sfg-pet-clinic/blob/main/PetClinicNotes.md
 
-Lect 47 --Done
-https://github.com/springframeworkguru/sfg-pet-clinic
-
-https://github.com/springframeworkguru/sfg-pet-clinic/tree/master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model
-[Revise according to video]
-
-Create Person
-https://github.com/springframeworkguru/sfg-pet-clinic/blob/master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Person.java
-
-https://github.com/springframeworkguru/sfg-pet-clinic/blob/master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Vet.java
-
-Owner
-Person
-Pet
-PetType
-Vet
-
---------
-
-Lect 48  --Ongoing
-
-
-
+]
 
 
 
