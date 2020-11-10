@@ -23,7 +23,7 @@ both in java and test
 ```
 --------
 
-Lect 73  --Ongoing
+Lect 73  --Done
 ```
 JokeApps create branch
 https://github.com/springframeworkguru/spring5-jokes-app/tree/java-config-example/src/main
