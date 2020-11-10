@@ -15,7 +15,7 @@ Lect 71 --Done
 
 ------
 
-Lect --72 Ongoing
+Lect --72 Done
 ```
 https://github.com/springframeworkguru/spring5-di-demo/tree/component-scan-example
 
