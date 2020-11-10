@@ -5,38 +5,30 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @Slf4j
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.gauro.services", "com.gauro.demo"})
 public class SfgApplication {
 
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(SfgApplication.class, args);
-        PetController petController = (PetController) ctx.getBean("petController");
-        log.info("-------The Best Pet Is-------");
-        log.info(petController.whichPetIsTheBest());
 
-        log.info("------>i18nController ");
-        I18nController i18nController = (I18nController) ctx.getBean("i18nController");
-        log.info(i18nController.sayHello());
 
         log.info("--------------MyController-from Primary Bean--");
-        MyController myController=  (MyController) ctx.getBean("myController");
+        MyController myController = (MyController) ctx.getBean("myController");
         log.info(myController.sayHello());
 
-        log.info("--------------Property");
-        PropertyInjectedController propertyInjectedController=(PropertyInjectedController) ctx.getBean("propertyInjectedController");
-        log.info(propertyInjectedController.getGreeting());
 
-        log.info("--------Setter");
-        SetterInjectedController setterInjectedController=(SetterInjectedController) ctx.getBean("setterInjectedController") ;
-        log.info(setterInjectedController.getGreeting());
+        log.info("--------------PropertyInjectedController");
+        log.info(ctx.getBean(PropertyInjectedController.class).sayHello());
 
         log.info("From Constructor====>");
-        ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx.getBean("constructorInjectedController");
-        log.info(constructorInjectedController.getGreeting());
+        log.info(ctx.getBean(ConstructorInjectedController.class).sayHello());
 
-
+        log.info("---------GetterInjectedController");
+        log.info(ctx.getBean(GetterInjectedController.class).sayHello());
 
     }
 

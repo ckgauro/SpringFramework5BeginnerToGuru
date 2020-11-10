@@ -1,7 +1,6 @@
 package com.gauro.demo.controllers;
 
-import com.gauro.demo.services.GreetingService;
-import lombok.AllArgsConstructor;
+import com.gauro.services.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
@@ -16,7 +15,7 @@ public class ConstructorInjectedController {
     public ConstructorInjectedController(@Qualifier("constructorGreetingService") GreetingService greetingService) {
         this.greetingService = greetingService;
     }
-    public String getGreeting(){
+    public String sayHello(){
 
         return this.greetingService.sayGreeting();
     }

@@ -1,4 +1,4 @@
-package com.gauro.demo.services;
+package com.gauro.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
@@ -6,11 +6,11 @@ import org.springframework.stereotype.Service;
 /**
  * @author Chandra
  */
-@Primary
 @Service
-public class PrimaryGreetingService implements GreetingService{
+@Primary
+public class GetterGreetingService implements GreetingService{
     @Override
     public String sayGreeting() {
-        return "Hello World - From the PRIMARY Bean";
+        return "Hello - I was injected by the getter";
     }
 }

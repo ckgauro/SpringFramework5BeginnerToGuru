@@ -1,6 +1,6 @@
 package com.gauro.demo.controllers;
 
-import com.gauro.demo.services.GreetingService;
+import com.gauro.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
@@ -10,12 +10,12 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 public class PropertyInjectedController {
-    @Qualifier("propertyInjectedGreetingService")
+    @Qualifier("greetingServiceImpl")
     @Autowired
-    public GreetingService greetingService;
+    public GreetingService greetingServiceImpl;
 
-    public String getGreeting(){
-        return greetingService.sayGreeting();
+    public String sayHello(){
+        return greetingServiceImpl.sayGreeting();
     }
 
 }
