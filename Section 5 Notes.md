@@ -53,7 +53,7 @@ localhost:8080
 ```
 --------
 
-Lect 75
+Lect 75  --Ongoing
 ```
 Factory desgin pattern
 ---------
