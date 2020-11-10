@@ -37,7 +37,7 @@ localhost:8080
 ```
 --------
 
-Lect 74
+Lect 74 --Done
 ```
 https://github.com/springframeworkguru/spring5-jokes-app/tree/xml-config-example
 
