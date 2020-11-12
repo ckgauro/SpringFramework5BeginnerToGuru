@@ -13,7 +13,11 @@ import org.springframework.stereotype.Controller;
 public class MyController {
     private GreetingService greetingService;
 
-    public MyController(@Qualifier("greetingServiceImpl") GreetingService greetingService) {
+//    public MyController(@Qualifier("greetingServiceImpl") GreetingService greetingService) {
+//        this.greetingService = greetingService;
+//    }
+
+    public MyController(GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 
