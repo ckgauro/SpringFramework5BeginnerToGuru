@@ -1,4 +1,4 @@
-package com.gauro.services;
+package com.gauro.demo.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
@@ -7,9 +7,11 @@ import org.springframework.stereotype.Service;
 /**
  * @author Chandra
  */
-@Service
-@Primary
-@Profile("es")
+//
+//@Service
+//@Primary
+//@Profile("es")
+
 public class PrimarySpanishGreetingService  implements GreetingService{
     private GreetingRepository greetingRepository;
 

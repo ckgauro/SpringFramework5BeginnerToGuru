@@ -1,4 +1,4 @@
-package com.gauro.services;
+package com.gauro.demo.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;

@@ -1,8 +1,11 @@
-package com.gauro.services;
+package com.gauro.demo.services;
+
+import org.springframework.stereotype.Component;
 
 /**
  * @author Chandra
  */
+@Component
 public class GreetingRepositoryImpl  implements  GreetingRepository{
 
     @Override

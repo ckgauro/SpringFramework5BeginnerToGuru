@@ -1,4 +1,4 @@
-package com.gauro.services;
+package com.gauro.demo.services;
 
 /**
  * @author Chandra

@@ -1,6 +1,6 @@
 package com.gauro.demo.controllers;
 
-import com.gauro.services.GreetingServiceImpl;
+import com.gauro.demo.services.GreetingServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
