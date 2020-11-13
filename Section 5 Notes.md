@@ -1,4 +1,4 @@
-# Spring Configuration  ---Ongoing
+# Spring Configuration  ---Done
 
 -----
 Lect 69 done
@@ -53,7 +53,7 @@ localhost:8080
 ```
 --------
 
-Lect 75  --Ongoing
+Lect 75  --Done
 ```
 Factory desgin pattern
 ---------
@@ -77,29 +77,32 @@ Lect 76
 
 --------
 
-Lect 77
+Lect 77 --Done
 ```
 Spring5-recipe-app  example go through
+mvn spring-boot:help -Ddetail=true
+mvn spring-boot:run -Drun.arguments=--debug
+
 [Revise video]
 ```
 
 --------
 
-Lect 78
+Lect 78 --Done
 ```
 Spring Bean Scopes
 ```
 
 --------
 
-Lect 79
+Lect 79 --Done
 ```
 Quiz
 
 ```
 
 --------
-Lect 80
+Lect 80 to 85 Pet
 ```
 
 

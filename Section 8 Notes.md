@@ -55,18 +55,29 @@ Lect 136
 https://github.com/springframeworkguru/spring5-recipe-app/tree/jpa-enumerations/src/main/java/guru/springframework/domain
 https://github.com/springframeworkguru/spring5-recipe-app/blob/jpa-enumerations/src/main/java/guru/springframework/domain/Difficulty.java
 https://github.com/springframeworkguru/spring5-recipe-app/blob/jpa-enumerations/src/main/java/guru/springframework/domain/Recipe.java
-
+[Run it]
 ```
 --------
 
 Lect 137
 ```
-
-
+{Revise Video}
+https://github.com/springframeworkguru/spring5-recipe-app/tree/many-to-many-jpa-example
+https://github.com/springframeworkguru/spring5-recipe-app/blob/many-to-many-jpa-example/src/main/java/guru/springframework/domain/Category.java
+https://github.com/springframeworkguru/spring5-recipe-app/blob/many-to-many-jpa-example/src/main/java/guru/springframework/domain/Recipe.java
 
 
 ```
 --------
 
-Lect 136
+Lect 138
 ```
+
+
+```
+--------
+
+Lect 139
+```
+
+Follow Pet-clinic-project
