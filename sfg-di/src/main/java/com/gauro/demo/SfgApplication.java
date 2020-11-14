@@ -1,6 +1,7 @@
 package com.gauro.demo;
 
 import com.gauro.demo.controllers.*;
+import com.gauro.demo.examplebeans.FakeDataSource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -28,6 +29,11 @@ public class SfgApplication {
 
         log.info("---------GetterInjectedController");
         log.info(ctx.getBean(GetterInjectedController.class).sayHello());
+
+        log.info("---------fakeDataSource");
+        FakeDataSource fakeDataSource=(FakeDataSource) ctx.getBean(FakeDataSource.class);
+        log.info(fakeDataSource.getUser());
+        log.info(fakeDataSource.toString());
 
     }
 

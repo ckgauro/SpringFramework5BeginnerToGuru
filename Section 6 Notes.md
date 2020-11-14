@@ -3,7 +3,7 @@
 ---------
 Lect 87
 ```
-DI-Demo  --Ongoing
+DI-Demo  --Done
 
 
 Create branch
@@ -21,7 +21,7 @@ https://github.com/springframeworkguru/spring5-di-demo/blob/property-source/src/
 
 ```
 -------
-Lect 88
+Lect 88 --Ongoing
 ```
 https://github.com/springframeworkguru/spring5-di-demo/tree/environment-props
 
