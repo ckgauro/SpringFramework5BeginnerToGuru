@@ -1,4 +1,4 @@
-# Spring 6 External properties with Spring Framework  ---Ongoing
+# Spring 6 External properties with Spring Framework  ---Done
 
 ---------
 Lect 87
@@ -43,7 +43,7 @@ https://github.com/springframeworkguru/spring5-di-demo/blob/multiple-property-fi
 [run it]
 ```
 -------
-Lect 90 --Ongoing
+Lect 90 --Done
 ```
 https://github.com/springframeworkguru/spring5-di-demo/tree/aaplication-properties
 [Refractor]
@@ -57,7 +57,7 @@ https://github.com/springframeworkguru/spring5-di-demo/blob/aaplication-properti
 
 ```
 -------
-Lect 91
+Lect 91  --Done
 ```
 
 https://github.com/springframeworkguru/spring5-di-demo/tree/intro-to-yaml
@@ -65,7 +65,7 @@ https://github.com/springframeworkguru/spring5-di-demo/blob/intro-to-yaml/src/ma
 [three space]
 ```
 -------
-Lect 92
+Lect 92 --Done
 ```
 
 https://github.com/springframeworkguru/spring5-di-demo/tree/application-yaml
@@ -75,14 +75,14 @@ https://github.com/springframeworkguru/spring5-di-demo/blob/application-yaml/src
 [run it]
 ```
 -------
-Lect 93
+Lect 93 --Done
 ```
 https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-external-config
 
 
 ```
 -------
-Lect 94
+Lect 94 --DOne
 ```
 https://github.com/springframeworkguru/spring5-di-demo/tree/profile-properties
 https://github.com/springframeworkguru/spring5-di-demo/blob/profile-properties/src/main/resources/application-de.properties
