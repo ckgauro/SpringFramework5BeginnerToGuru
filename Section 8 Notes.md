@@ -1,4 +1,4 @@
-# Spring 8 JPA Data Modeling with Spring and Hibernate  ---Not Started
+# Spring 8 JPA Data Modeling with Spring and Hibernate  ---Ongoing
 -------------
 
 Lect 130

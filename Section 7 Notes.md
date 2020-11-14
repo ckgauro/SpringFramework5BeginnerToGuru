@@ -1,4 +1,4 @@
-# Spring 7 Web Development with Spring MVC  ---Not Started
+# Spring 7 Web Development with Spring MVC  ---Done
 -------------
 Lect 98
 ```
@@ -95,7 +95,11 @@ Build>Build Project
 Lect 109
 ```
 Intellij Compiler Configure for Spring Boot Development Tools
-
+{Revise video}
+cmd+shift+A
+    Registry
+        compiler.automake.allow.app.running [Check]
+    
 
 
 ```
