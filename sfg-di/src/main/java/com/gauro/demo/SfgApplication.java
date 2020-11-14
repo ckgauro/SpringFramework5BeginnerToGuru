@@ -2,6 +2,7 @@ package com.gauro.demo;
 
 import com.gauro.demo.controllers.*;
 import com.gauro.demo.examplebeans.FakeDataSource;
+import com.gauro.demo.examplebeans.FakeJmsBroker;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -34,6 +35,10 @@ public class SfgApplication {
         FakeDataSource fakeDataSource=(FakeDataSource) ctx.getBean(FakeDataSource.class);
         log.info(fakeDataSource.getUser());
         log.info(fakeDataSource.toString());
+
+        log.info("------FakeJMS");
+        FakeJmsBroker fakeJmsBroker=(FakeJmsBroker) ctx.getBean(FakeJmsBroker.class);
+        log.info(fakeJmsBroker.toString());
 
     }
 

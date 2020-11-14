@@ -21,7 +21,7 @@ https://github.com/springframeworkguru/spring5-di-demo/blob/property-source/src/
 
 ```
 -------
-Lect 88 --Ongoing
+Lect 88 --Done
 ```
 https://github.com/springframeworkguru/spring5-di-demo/tree/environment-props
 
@@ -33,7 +33,7 @@ https://github.com/springframeworkguru/spring5-di-demo/blob/environment-props/sr
 [run it]
 ```
 -------
-Lect 89
+Lect 89 --Ongoing
 ```
 https://github.com/springframeworkguru/spring5-di-demo/tree/multiple-property-files
 
