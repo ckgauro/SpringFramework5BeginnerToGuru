@@ -33,7 +33,7 @@ https://github.com/springframeworkguru/spring5-di-demo/blob/environment-props/sr
 [run it]
 ```
 -------
-Lect 89 --Ongoing
+Lect 89 --Done
 ```
 https://github.com/springframeworkguru/spring5-di-demo/tree/multiple-property-files
 
@@ -43,7 +43,7 @@ https://github.com/springframeworkguru/spring5-di-demo/blob/multiple-property-fi
 [run it]
 ```
 -------
-Lect 90
+Lect 90 --Ongoing
 ```
 https://github.com/springframeworkguru/spring5-di-demo/tree/aaplication-properties
 [Refractor]
